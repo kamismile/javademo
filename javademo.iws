@@ -7,7 +7,7 @@
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028701302" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028729895" ignored="false" />
     <file path="$PROJECT_DIR$/../woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
@@ -541,7 +541,11 @@
       <created>1386028704734</created>
       <updated>1386028704734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="begin">
+      <created>1386028733886</created>
+      <updated>1386028733886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
