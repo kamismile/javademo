@@ -26,46 +26,25 @@ public class AddFieldAdapter extends ClassVisitor {
         addFieldAdapter.visitField(Opcodes.ACC_PUBLIC,
                 "aa", "Z", null, true);
 
-        MethodVisitor m = addFieldAdapter.visitMethod(Opcodes.ACC_PUBLIC, "getF", "()I", null, null);
-
-
-
-        MethodVisitor mv1 = new MethodVisitor(Opcodes.ASM4,m) {
-            public void visitInsn(int opcode) {
-                //此方法可以获取方法中每一条指令的操作类型，被访问多次
-                //如应在方法结尾处添加新指令，则应判断：
-
-//                mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL,
-//                "asm/Bean",
-//                "getF",
-//                "()I");
-                if(opcode == Opcodes.RETURN)
-                {
-                    // pushes the 'out' field (of type PrintStream) of the System class
-                    mv.visitFieldInsn(Opcodes.GETSTATIC,
-                            "java/lang/System",
-                            "out",
-                            "Ljava/io/PrintStream;");
-                    // pushes the "Hello World!" String constant
-                    mv.visitLdcInsn("this is a modify method!");
-                    // invokes the 'println' method (defined in the PrintStream class)
-                    mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL,
-                            "java/io/PrintStream",
-                            "println",
-                            "(Ljava/lang/String;)V");
-//                mv.visitInsn(RETURN);
-                }
-                super.visitInsn(opcode);
-            }
-        };
-
-        mv1.visitInsn(Opcodes.RETURN);
-        mv1.visitEnd();
-
+        MethodVisitor methodVisitor = addFieldAdapter.visitMethod(Opcodes.ACC_PUBLIC, "getF", "()I", null, null);
+        methodVisitor.visitCode();
+        methodVisitor.visitMethodInsn(Opcodes.INVOKESTATIC, "java/lang/System", "currentTimeMillis", "()J");
+        methodVisitor.visitVarInsn(Opcodes.LSTORE, 2);
+        methodVisitor.visitVarInsn(Opcodes.ALOAD, 0);
+        methodVisitor.visitVarInsn(Opcodes.ALOAD, 1);
+        methodVisitor.visitMethodInsn(Opcodes.INVOKESPECIAL, "asm/Bean", "getF", "()I");
+        methodVisitor.visitFieldInsn(Opcodes.GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
+        methodVisitor.visitMethodInsn(Opcodes.INVOKESTATIC, "java/lang/System", "currentTimeMillis", "()J");
+        methodVisitor.visitVarInsn(Opcodes.LLOAD, 2);
+        methodVisitor.visitInsn(Opcodes.LSUB);
+        methodVisitor.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "java/io/PrintStream", "println", "(J)V");
+        methodVisitor.visitInsn(Opcodes.RETURN);
+        methodVisitor.visitMaxs(5, 4);
+        methodVisitor.visitEnd();
 
         addFieldAdapter.visitEnd();
         classReader.accept(addFieldAdapter,ClassReader.SKIP_DEBUG);
-
+        classVisitor.visitEnd();
         byte[] data = classVisitor.toByteArray();
         File file = new File("D:\\Bean.class");
         FileOutputStream fout = new FileOutputStream(file);
