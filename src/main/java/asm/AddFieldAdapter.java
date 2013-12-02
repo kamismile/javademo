@@ -26,11 +26,19 @@ public class AddFieldAdapter extends ClassVisitor {
         addFieldAdapter.visitField(Opcodes.ACC_PUBLIC,
                 "aa", "Z", null, true);
 
-        final MethodVisitor m = addFieldAdapter.visitMethod(Opcodes.ACC_PUBLIC, "setF", "(I)V", null, null);
+        MethodVisitor m = addFieldAdapter.visitMethod(Opcodes.ACC_PUBLIC, "getF", "()I", null, null);
+
+
+
         MethodVisitor mv1 = new MethodVisitor(Opcodes.ASM4,m) {
             public void visitInsn(int opcode) {
                 //此方法可以获取方法中每一条指令的操作类型，被访问多次
                 //如应在方法结尾处添加新指令，则应判断：
+
+//                mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL,
+//                "asm/Bean",
+//                "getF",
+//                "()I");
                 if(opcode == Opcodes.RETURN)
                 {
                     // pushes the 'out' field (of type PrintStream) of the System class
@@ -50,10 +58,13 @@ public class AddFieldAdapter extends ClassVisitor {
                 super.visitInsn(opcode);
             }
         };
-        mv1.visitMaxs(0, 0);
+
+        mv1.visitInsn(Opcodes.RETURN);
         mv1.visitEnd();
+
+
         addFieldAdapter.visitEnd();
-        classReader.accept(addFieldAdapter,Opcodes.ASM4);
+        classReader.accept(addFieldAdapter,ClassReader.SKIP_DEBUG);
 
         byte[] data = classVisitor.toByteArray();
         File file = new File("D:\\Bean.class");
