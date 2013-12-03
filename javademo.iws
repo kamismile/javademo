@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386029517853" ignored="false" />
-    <file path="$PROJECT_DIR$/../woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386034345357" ignored="false" />
+    <file path="D:/project/woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
     <file path="/RemoveDebugAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961746662" ignored="false" />
@@ -16,7 +17,7 @@
     <file path="/MultiClassAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961841987" ignored="false" />
     <file path="/MyClassAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385963025388" ignored="false" />
     <file path="/Bean.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385964771599" ignored="false" />
-    <file path="/AddFieldAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028066713" ignored="false" />
+    <file path="/AddFieldAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386037544444" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="D:\project\javademo" />
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -80,8 +81,47 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+            <state line="27" column="5" selection-start="975" selection-end="1796" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MAVEN/javademo:javademo:1.0-SNAPSHOT" pinned="false" current="false" current-in-tab="false">
+        <entry file="uml://MAVEN/javademo:javademo:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>javademo:javademo:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="112.0" y="39.0">com.sun.tools.btrace:btrace-boot:jar:1.2.3</node>
+                <node x="112.0" y="78.0">org.ow2.asm:asm-all:jar:4.2</node>
+                <node x="112.0" y="0.0">com.sun.tools.btrace:btrace-asm:jar:3.1</node>
+                <node x="0.0" y="0.0">javademo:javademo:1.0-SNAPSHOT</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="javademo:javademo:1.0-SNAPSHOT" target="org.ow2.asm:asm-all:jar:4.2">
+                  <point x="0.0" y="0.0" />
+                  <point x="41.0" y="92.5" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javademo:javademo:1.0-SNAPSHOT" target="com.sun.tools.btrace:btrace-asm:jar:3.1">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="javademo:javademo:1.0-SNAPSHOT" target="com.sun.tools.btrace:btrace-boot:jar:1.2.3">
+                  <point x="0.0" y="0.0" />
+                  <point x="41.0" y="53.5" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-67.0" y="39.0" />
+              <SelectedNodes>
+                <node>javademo:javademo:1.0-SNAPSHOT</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -89,7 +129,7 @@
       <file leaf-file-name="Bean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/Bean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+            <state line="0" column="11" selection-start="8" selection-end="11" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +138,7 @@
       <file leaf-file-name="AddFieldAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="84" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.34060404">
+            <state line="39" column="41" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6797853">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,14 +197,32 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="javademo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="javademo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1251" />
-    <option name="height" value="784" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1158" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -194,6 +252,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -210,6 +269,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javademo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javademo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javademo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javademo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javademo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,25 +362,72 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="99" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="98" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="775" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="773" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="104" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="92" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="3f098d11-c716-4d8f-a974-e690d91d6f61">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="42c0308a-2e51-4a97-94af-af8daf2f7fcf">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="4a058c32-4b4c-49c2-9c2d-a75423cf1f1d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="70fe7810-d4fd-4c6a-aff5-57fc057a4703">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -516,7 +658,6 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -534,38 +675,14 @@
       <updated>1385977124208</updated>
     </task>
     <task id="LOCAL-00003" summary="begin">
-      <created>1386028691989</created>
-      <updated>1386028691989</updated>
+      <created>1385978368683</created>
+      <updated>1385978368683</updated>
     </task>
-    <task id="LOCAL-00004" summary="begin">
-      <created>1386028704734</created>
-      <updated>1386028704734</updated>
-    </task>
-    <task id="LOCAL-00005" summary="begin">
-      <created>1386028733886</created>
-      <updated>1386028733886</updated>
-    </task>
-    <task id="LOCAL-00006" summary="begin">
-      <created>1386028763182</created>
-      <updated>1386028763182</updated>
-    </task>
-    <task id="LOCAL-00007" summary="begin1">
-      <created>1386028929570</created>
-      <updated>1386028929570</updated>
-    </task>
-    <task id="LOCAL-00008" summary="begin1">
-      <created>1386029232029</created>
-      <updated>1386029232029</updated>
-    </task>
-    <task id="LOCAL-00009" summary="begin1">
-      <created>1386029524768</created>
-      <updated>1386029524768</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1251" height="784" extended-state="6" />
+    <frame x="-4" y="-4" width="1158" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,22 +691,22 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39814815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.668187" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968882" sideWeight="0.668187" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.668187" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25147182" sideWeight="0.6693419" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3306581" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2522686" sideWeight="0.668187" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.331813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -639,7 +756,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin1" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -654,7 +771,6 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="begin" />
-    <MESSAGE value="begin1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -664,34 +780,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2.jar!/org/objectweb/asm/ClassVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="78" selection-start="744" selection-end="744" vertical-scroll-proportion="-12.92" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asm/Bean.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="55" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="975" selection-end="1214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="79" column="17" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.33273703" />
       </provider>
     </entry>
     <entry file="uml://MAVEN/javademo:javademo:1.0-SNAPSHOT">
@@ -700,87 +796,112 @@
           <ID>MAVEN</ID>
           <OriginalElement>javademo:javademo:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="" y="">com.sun.tools.btrace:btrace-boot:jar:1.2.3</node>
-            <node x="" y="">org.ow2.asm:asm-all:jar:4.2</node>
-            <node x="" y="">com.sun.tools.btrace:btrace-asm:jar:3.1</node>
-            <node x="" y="">javademo:javademo:1.0-SNAPSHOT</node>
+            <node x="112.0" y="39.0">com.sun.tools.btrace:btrace-boot:jar:1.2.3</node>
+            <node x="112.0" y="78.0">org.ow2.asm:asm-all:jar:4.2</node>
+            <node x="112.0" y="0.0">com.sun.tools.btrace:btrace-asm:jar:3.1</node>
+            <node x="0.0" y="0.0">javademo:javademo:1.0-SNAPSHOT</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="54.0" />
-          <SelectedNodes />
+          <edges>
+            <edge source="javademo:javademo:1.0-SNAPSHOT" target="org.ow2.asm:asm-all:jar:4.2">
+              <point x="0.0" y="0.0" />
+              <point x="41.0" y="92.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javademo:javademo:1.0-SNAPSHOT" target="com.sun.tools.btrace:btrace-asm:jar:3.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="javademo:javademo:1.0-SNAPSHOT" target="com.sun.tools.btrace:btrace-boot:jar:1.2.3">
+              <point x="0.0" y="0.0" />
+              <point x="41.0" y="53.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-67.0" y="39.0" />
+          <SelectedNodes>
+            <node>javademo:javademo:1.0-SNAPSHOT</node>
+          </SelectedNodes>
           <Categories />
-          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="49" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="5" selection-start="975" selection-end="1796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="570" column="18" selection-start="22740" selection-end="22740" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1404" column="20" selection-start="56872" selection-end="56872" vertical-scroll-proportion="0.33206108" />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="686" column="0" selection-start="24823" selection-end="24823" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/tools/btrace/btrace-asm/3.1/btrace-asm-3.1.jar!/com/sun/btrace/org/objectweb/asm/ClassAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="323" selection-end="323" vertical-scroll-proportion="0.043181818" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="438" column="10" selection-start="16015" selection-end="16015" vertical-scroll-proportion="0.7364017" />
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="464" column="0" selection-start="17579" selection-end="17579" vertical-scroll-proportion="0.35728952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asm/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="8" selection-end="11" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="25" selection-start="10809" selection-end="10809" vertical-scroll-proportion="0.44117647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/MethodVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="16" selection-start="12440" selection-end="12440" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="644" column="61" selection-start="20458" selection-end="20458" vertical-scroll-proportion="0.39597315">
+        <state line="52" column="28" selection-start="2664" selection-end="2664" vertical-scroll-proportion="-2.1482353">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://MAVEN/javademo:javademo:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>javademo:javademo:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.sun.tools.btrace:btrace-boot:jar:1.2.3</node>
-            <node x="" y="">org.ow2.asm:asm-all:jar:4.2</node>
-            <node x="" y="">com.sun.tools.btrace:btrace-asm:jar:3.1</node>
-            <node x="" y="">javademo:javademo:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/Opcodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asm/Bean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Bean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="325" selection-end="325" vertical-scroll-proportion="0.56153846" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/MethodVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="16" selection-start="6448" selection-end="6448" vertical-scroll-proportion="-7.266667">
+        <state line="60" column="81" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.31058824">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="84" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.34060404">
+        <state line="39" column="41" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6797853">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
