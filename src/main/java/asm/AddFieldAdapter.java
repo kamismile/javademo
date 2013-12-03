@@ -28,32 +28,23 @@ public class AddFieldAdapter extends ClassVisitor {
 
         MethodVisitor m = addFieldAdapter.visitMethod(Opcodes.ACC_PUBLIC, "getF", "()I", null, null);
 
-
-
         MethodVisitor mv1 = new MethodVisitor(Opcodes.ASM4,m) {
+            @Override
             public void visitInsn(int opcode) {
-                //此方法可以获取方法中每一条指令的操作类型，被访问多次
-                //如应在方法结尾处添加新指令，则应判断：
-                if(opcode == Opcodes.RETURN)
-                {
-                    // pushes the 'out' field (of type PrintStream) of the System class
-                    mv.visitFieldInsn(Opcodes.GETSTATIC,
-                            "java/lang/System",
-                            "out",
+                if (opcode == Opcodes.RETURN) {
+                    mv.visitFieldInsn(Opcodes.GETSTATIC, "java/lang/System", "out",
                             "Ljava/io/PrintStream;");
-                    // pushes the "Hello World!" String constant
-                    mv.visitLdcInsn("this is a modify method!");
-                    // invokes the 'println' method (defined in the PrintStream class)
-                    mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL,
-                            "java/io/PrintStream",
-                            "println",
-                            "(Ljava/lang/String;)V");
-//                mv.visitInsn(RETURN);
+                    mv.visitFieldInsn(Opcodes.GETSTATIC,
+                            Type.getInternalName(Bean.class), "timer", "J");
+                    mv.visitMethodInsn(Opcodes.INVOKESTATIC, "java/lang/System",
+                            "currentTimeMillis", "()J");
+                    mv.visitInsn(Opcodes.LADD);
+                    mv.visitMethodInsn(Opcodes.INVOKEVIRTUAL, "java/io/PrintStream",
+                            "println", "(J)V");
                 }
-                super.visitInsn(opcode);
+                mv.visitInsn(opcode);
             }
         };
-
         mv1.visitInsn(Opcodes.RETURN);
         mv1.visitEnd();
 

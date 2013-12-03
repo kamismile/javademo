@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asm/AsmExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386034345357" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386037879201" ignored="false" />
     <file path="D:/project/woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
@@ -17,7 +18,7 @@
     <file path="/MultiClassAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961841987" ignored="false" />
     <file path="/MyClassAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385963025388" ignored="false" />
     <file path="/Bean.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385964771599" ignored="false" />
-    <file path="/AddFieldAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386037544444" ignored="false" />
+    <file path="/AddFieldAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386039241672" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,13 +136,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddFieldAdapter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddFieldAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="41" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6797853">
+            <state line="40" column="88" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsmExample.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/asm/AsmExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.2895238">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="738" column="31" selection-start="23656" selection-end="23656" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassVisitor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="16" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/btrace/CaseObjectMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/btrace/TracingScript.java" />
         <option value="$PROJECT_DIR$/src/main/java/asm/FieldVisitor.java" />
         <option value="$PROJECT_DIR$/src/main/java/asm/ClassVisitor.java" />
@@ -180,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/main/java/asm/Bean.java" />
         <option value="$PROJECT_DIR$/src/main/java/asm/AsmAopExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/asm/AsmExample.java" />
       </list>
     </option>
   </component>
@@ -252,8 +282,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -362,21 +390,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="99" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="98" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="775" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="773" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="775" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="104" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="92" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -394,8 +424,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -437,7 +467,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddFieldAdapter">
+  <component name="RunManager" selected="Application.AsmExample">
     <configuration default="false" name="CaseObjectMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -532,6 +562,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AsmExample" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="asm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="asm.AsmExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javademo" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -544,6 +596,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -572,19 +637,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -623,18 +675,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CaseObjectMain" />
       <item index="1" class="java.lang.String" itemvalue="Application.Bean" />
       <item index="2" class="java.lang.String" itemvalue="Application.AddFieldAdapter" />
       <item index="3" class="java.lang.String" itemvalue="Application.AsmAopExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AsmExample" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.AddFieldAdapter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AsmAopExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Bean" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CaseObjectMain" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.AsmExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AddFieldAdapter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AsmAopExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Bean" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CaseObjectMain" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -705,8 +759,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.668187" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2522686" sideWeight="0.668187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.331813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2522686" sideWeight="0.66932726" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33067274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,11 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2.jar!/org/objectweb/asm/ClassVisitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="78" selection-start="744" selection-end="744" vertical-scroll-proportion="-12.92" />
-      </provider>
-    </entry>
     <entry file="jar://E:/Program Files/Java/jdk1.6.0/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="17" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.33273703" />
@@ -871,23 +920,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="25" selection-start="10809" selection-end="10809" vertical-scroll-proportion="0.44117647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/MethodVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="274" column="16" selection-start="12440" selection-end="12440" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="2664" selection-end="2664" vertical-scroll-proportion="-2.1482353">
           <folding />
         </state>
       </provider>
@@ -899,9 +934,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="16" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="738" column="31" selection-start="23656" selection-end="23656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.6797853">
+        <state line="40" column="88" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asm/AsmExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.2895238">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
