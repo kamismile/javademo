@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="begin1">
+    <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028916618" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028925773" ignored="false" />
     <file path="$PROJECT_DIR$/../woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
@@ -98,7 +99,7 @@
       <file leaf-file-name="AddFieldAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="396" selection-end="396" vertical-scroll-proportion="0.21282052">
+            <state line="33" column="66" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.4076923">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -549,7 +550,11 @@
       <created>1386028763182</created>
       <updated>1386028763182</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="begin1">
+      <created>1386028929570</created>
+      <updated>1386028929570</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,7 +632,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -642,6 +647,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="begin" />
+    <MESSAGE value="begin1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -744,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="396" selection-end="396" vertical-scroll-proportion="0.21282052">
+        <state line="33" column="66" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.4076923">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

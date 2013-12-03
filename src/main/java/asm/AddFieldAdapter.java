@@ -32,7 +32,6 @@ public class AddFieldAdapter extends ClassVisitor {
         methodVisitor.visitVarInsn(Opcodes.LSTORE, 2);
         methodVisitor.visitVarInsn(Opcodes.ALOAD, 0);
         methodVisitor.visitVarInsn(Opcodes.ALOAD, 1);
-        methodVisitor.visitMethodInsn(Opcodes.INVOKESPECIAL, "asm/Bean", "getF", "()I");
         methodVisitor.visitFieldInsn(Opcodes.GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
         methodVisitor.visitMethodInsn(Opcodes.INVOKESTATIC, "java/lang/System", "currentTimeMillis", "()J");
         methodVisitor.visitVarInsn(Opcodes.LLOAD, 2);
