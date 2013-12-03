@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asm/AsmExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" afterPath="$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386037879201" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386039833304" ignored="false" />
     <file path="D:/project/woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
@@ -19,6 +17,7 @@
     <file path="/MyClassAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385963025388" ignored="false" />
     <file path="/Bean.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385964771599" ignored="false" />
     <file path="/AddFieldAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386039241672" ignored="false" />
+    <file path="/AsmExample.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386041251204" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <file leaf-file-name="AsmExample.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/AsmExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.2895238">
+            <state line="150" column="79" selection-start="4921" selection-end="4921" vertical-scroll-proportion="-0.41142857">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,36 +354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="btrace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javademo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javademo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -732,7 +701,11 @@
       <created>1385978368683</created>
       <updated>1385978368683</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="begin">
+      <created>1386039836991</created>
+      <updated>1386039836991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -927,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/Opcodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="81" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.31058824">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/ClassVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="16" selection-start="5081" selection-end="5081" vertical-scroll-proportion="0.0">
@@ -957,9 +923,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-all/4.2/asm-all-4.2-sources.jar!/org/objectweb/asm/Opcodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="8" selection-start="10201" selection-end="10201" vertical-scroll-proportion="0.54460967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asm/AsmExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="47" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.2895238">
+        <state line="150" column="79" selection-start="4921" selection-end="4921" vertical-scroll-proportion="-0.41142857">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
