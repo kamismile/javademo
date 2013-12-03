@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
+    <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="begin1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
     <ignored path="javademo.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385719830248" ignored="false" />
-    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028729895" ignored="false" />
+    <file path="/Dummy.txt" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1386028916618" ignored="false" />
     <file path="$PROJECT_DIR$/../woniu-webService/adsystem/woniu-adsystem/pom.xml" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385947991102" ignored="false" />
     <file path="/ClassPrinter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961510935" ignored="false" />
     <file path="/ChangeVersionAdapter.java" changelist="e9aeb97d-e229-48d8-98e6-35303e4ab961" time="1385961688961" ignored="false" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="AddFieldAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="64" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.6025641">
+            <state line="17" column="38" selection-start="396" selection-end="396" vertical-scroll-proportion="0.21282052">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -545,7 +545,11 @@
       <created>1386028733886</created>
       <updated>1386028733886</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="begin">
+      <created>1386028763182</created>
+      <updated>1386028763182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -740,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asm/AddFieldAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="64" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.6025641">
+        <state line="17" column="38" selection-start="396" selection-end="396" vertical-scroll-proportion="0.21282052">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
