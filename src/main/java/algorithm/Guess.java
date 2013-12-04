@@ -1,5 +1,6 @@
 package algorithm;
 
+import java.io.Console;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -32,6 +33,7 @@ public class Guess {
     }
 
     public static void main(String[] args) {
-        new Guess().gg();
+//        new Guess().gg();
+
     }
 }
