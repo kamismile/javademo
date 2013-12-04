@@ -34,6 +34,59 @@ public class Guess {
 
     public static void main(String[] args) {
 //        new Guess().gg();
+        System.out.println(new Guess().pop(2));
+//        System.out.println(3&1);
+    }
 
+    public int bitCount(int x){
+        int count = 0;
+        while(x!=0){
+            if(x%2!=0){  //判断奇偶数
+                count++;
+            }
+            x = x>>>1;
+        }
+        return count;
+    }
+
+    public int bitCount2(int x){
+        int count = 0;
+        while(x!=0){
+            count+= x&1;
+            x = x>>>1;
+        }
+        return count;
+    }
+
+    public int bitCount3(int x){
+        int count = 0;
+        while(x!=0){
+            if(x<0){
+                count++;
+            }
+            x = x<<1;
+        }
+        return count;
+    }
+
+    public int bitCount4( int x )
+    {
+        int count = 0;
+        while ( x != 0 )
+        {
+            x &= x - 1;
+            count++;
+        }
+        return count;
+    }
+
+    private int pop(int x)
+    {
+        x = x - ((x >> 1) & 0x55555555);
+        x = (x & 0x33333333) + ((x >> 2) & 0x33333333);
+        x = (x + (x >> 4)) & 0x0F0F0F0F;
+        x = x + (x >> 8);
+        x = x + (x >> 16);
+        return x & 0x0000003F;
     }
 }
