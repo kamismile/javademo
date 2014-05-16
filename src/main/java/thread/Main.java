@@ -23,5 +23,7 @@ public class Main {
         Thread thread=new Thread(task);
         thread.setUncaughtExceptionHandler(new ExceptionHandler());
         thread.start();
+
+
     }
 }

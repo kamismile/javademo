@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9aeb97d-e229-48d8-98e6-35303e4ab961" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/thread/ExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/thread/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/thread/Main.java" afterPath="$PROJECT_DIR$/src/main/java/thread/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javademo.iws" afterPath="$PROJECT_DIR$/javademo.iws" />
     </list>
@@ -131,8 +129,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding>
+                <element signature="e#134#135#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
@@ -154,8 +153,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4871795" vertical-offset="0" max-vertical-offset="627">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="665">
+              <caret line="13" column="94" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -986,7 +985,7 @@
       <workItem from="1386645466979" duration="742000" />
       <workItem from="1386922191538" duration="2844000" />
       <workItem from="1387788848480" duration="93000" />
-      <workItem from="1400209943932" duration="2989000" />
+      <workItem from="1400209943932" duration="3160000" />
     </task>
     <task id="LOCAL-00001" summary="begin">
       <created>1385954397823</created>
@@ -1024,11 +1023,15 @@
       <created>1400212188854</created>
       <updated>1400212188854</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="begin">
+      <created>1400217146490</created>
+      <updated>1400217146490</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16306000" />
+    <option name="totallyTimeSpent" value="16477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1247" height="1032" extended-state="6" />
@@ -1531,8 +1534,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
+            <element signature="e#134#135#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
           </folding>
         </state>
@@ -1540,8 +1544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4871795" vertical-offset="0" max-vertical-offset="627">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="665">
+          <caret line="13" column="94" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
