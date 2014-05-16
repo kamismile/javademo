@@ -34,8 +34,9 @@ public class Guess {
 
     public static void main(String[] args) {
 //        new Guess().gg();
-        System.out.println(new Guess().pop(2));
-//        System.out.println(3&1);
+//        System.out.println(new Guess().pop(1212));
+        System.out.println(3&3);
+        System.out.println(3|4);
     }
 
     public int bitCount(int x){
